@@ -10,11 +10,8 @@
   },
   "devDependencies": {
     "postcss-load-config": "^6.0.1",
-    "sharp": "^0.34.4",
-    "svgo": "^4.0.0",
     "typescript": "~5.8.3",
-    "vite": "^7.1.7",
-    "vite-plugin-image-optimizer": "^2.0.2"
+    "vite": "^7.1.7"
   },
   "postcss": {
     "parser": "sugarss",
