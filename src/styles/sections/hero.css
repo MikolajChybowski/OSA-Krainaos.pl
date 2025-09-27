@@ -1,0 +1,55 @@
+.hero
+  background-color: var(--pink)
+  position: relative
+
+  @media (max-width: 1000px)
+    padding-bottom: 100px
+
+.hero__bar
+  height: clamp(1.25rem, 1.016rem + 1.17vw, 2.188rem)
+  background-color: red
+
+.hero__logo
+  height: clamp(3.75rem, 3.125rem + 3.13vw, 6.25rem)
+  display: block
+  margin: clamp(1.25rem, 0.313rem + 4.69vw, 5rem) auto 30px auto
+
+.hero__wrapper
+  display: grid
+  grid-template-columns: 1fr 1fr
+
+  @media (max-width: 1000px)
+    grid-template-columns: 1fr
+
+.hero__image--desktop
+  margin-bottom: -100px
+
+  @media (max-width: 1200px)
+    margin-bottom: -50px
+
+  @media (max-width: 1000px)
+    display: none
+
+.hero__image--mobile
+  display: none
+
+  @media (max-width: 1000px)
+    display: block
+    max-width: 80%
+    margin: 0 auto
+
+.hero__wrapper-left
+  margin-top: clamp(0.625rem, 3.13vw, 3.125rem)
+
+  @media (max-width: 1000px)
+    order: 1
+
+.hero__heading
+  font-size: clamp(1.563rem, 1.172rem + 1.95vw, 3.125rem)
+  font-weight: var(--normal)
+
+.hero__wave
+  position: absolute
+  bottom: -10px
+  left: 50%
+  transform: translateX(-50%)

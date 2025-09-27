@@ -1,2 +1,5 @@
-import './styles/style.css'
-import './styles/h1.css'
+import './styles/settings/modern-normalize.css'
+import './styles/settings/global.css'
+import './styles/settings/components.css'
+import './styles/sections/hero.css'
+import './styles/sections/about.css'
