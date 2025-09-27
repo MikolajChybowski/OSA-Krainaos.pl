@@ -17,6 +17,7 @@
 
 .underline
   background: url(../img/underline.svg) no-repeat center bottom
+  background-size: contain
 
 .button
   display: inline-flex
